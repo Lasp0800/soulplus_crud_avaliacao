@@ -1,6 +1,16 @@
 # soulplus_crud_avaliacao
 Aplicação Crud para avaliação
 
+# Aspecto técnico
+
+- Aplicação em Angular
+- Utilizar como opcional a biblioteca do bootstrap para gerenciamento de estilos
+- Projeto terá 2 componentes criados
+  - listaCliente
+  - detalhesCliente
+- Deve criar o projeto principal (appComponent) e o mesmo deve chamar na inicalização o componente listaCliente
+- As funções abaixo descritas fazem o listaCliente chamar o componente detalhesCliente
+
 # Principais requisitos
 
 - Aplicação que contenha os seguintes campos: id, nome, telefone, perfil e url de foto
