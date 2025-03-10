@@ -1,4 +1,5 @@
 # soulplus_crud_avaliacao
+
 Aplicação Crud para avaliação
 
 # Aspecto técnico
@@ -28,3 +29,4 @@ Aplicação Crud para avaliação
 - Desejado que a mesma tenha pontos adicionais melhorados em relação a descrição do que está sendo solicitado, ou seja, se adicionar novos pontos, como um título, uma formatação, isso será pontuado como um plus;
 - O dev tem liberdade para adicionar novos pontos de melhoria, mas não deve fugir da base já especificada, ou seja, não desejo novos campos na mesma, apenas o que foi definido, mas aceitamos novas funcionalidades, labels, texto, formatação, etc que considerar uma melhoria para a experiência do usuário
 - Para a avaliação, será validado o código no aspecto de organizaçao no sentido de nomenclatura de variáveis, de organização do código, separação de componentes, etc
+- Teste para commit
