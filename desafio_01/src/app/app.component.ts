@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ListaClienteComponent } from './lista-cliente/lista-cliente.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ListaClienteComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'desafio_01';
+  clientes = ['Cliente 1', 'Cliente 2', 'Cliente 3'];
 }
