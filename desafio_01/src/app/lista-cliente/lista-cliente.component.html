@@ -1,4 +1,19 @@
-<h2>Lista de Clientes</h2>
-<ul>
-  <li *ngFor="let cliente of clientes">{{ cliente }}</li>
-</ul>
+<header>
+  <h1>Lista de Clientes</h1>
+  <button class="btn-novo">Novo</button>
+</header>
+
+<!-- Tabela de Clientes -->
+<div class="clients-container">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Foto</th>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Perfil</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    
